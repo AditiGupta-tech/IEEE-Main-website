@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-mint: #e8fbf1;
+  --color-paper: #f8f3ff;
+  --color-ink: #1a1a3e;
+  --color-brand: #2f5bff;
+  --color-lilac: #d9c9ff;
+  --color-aqua: #b6f0dc;
+  --color-sun: #ffd23f;
+  --color-pink: #ff5c8a;
+  --font-display: "Fredoka", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-mint);
+  background-image: radial-gradient(rgba(26,26,62,.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.brutal {
+  border: 2px solid var(--color-ink);
+  box-shadow: 5px 5px 0 var(--color-ink);
+}
+.brutal-sm {
+  border: 2px solid var(--color-ink);
+  box-shadow: 3px 3px 0 var(--color-ink);
+}
+html {
+  scroll-behavior: smooth;
+}
