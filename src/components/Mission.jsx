@@ -23,10 +23,19 @@ const cards = [
 
 export default function Mission() {
   return (
-    <section className="sec sec--periwinkle">
+    <section className="sec mission-section">
       <div className="wrap">
-        <p className="eyebrow">MODULE 03 · CORE PROGRAM</p>
-        <h2 className="h2">Our Aim &amp; Mission</h2>
+       <header className="mission-header">
+  <p className="mission-eyebrow">
+    MODULE 03 · LOGIC ARRAY
+  </p>
+
+  <h2 className="mission-title">
+    Our Aim &amp; Mission
+  </h2>
+
+  <span className="mission-header-indicator" aria-hidden="true" />
+</header>
 
         <div className="mission">
           {cards.map((c, i) => (
