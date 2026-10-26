@@ -1,0 +1,38 @@
+export const events = [
+  {
+    file: "career_path.md",
+    title: "Nishant Chahar: Crafting a Successful Career Path",
+    author: "IEEE IGDTUW",
+    status: "successfully merged",
+    attendees: "300+ learners",
+    text: "A candid session on choosing a direction early, building a portfolio that speaks for itself and handling the first few years of a tech career.",
+    img: "https://picsum.photos/seed/ieee-career/720/480",
+  },
+  {
+    file: "harkirat_x_ieee.md",
+    title: "Harkirat x IEEE",
+    author: "IEEE IGDTUW + T&P Cell",
+    status: "held on 10 Jan 2024",
+    attendees: "campus-wide",
+    text: "Run together with the ECE department and the Training & Placement cell. Talks on web development, open source and breaking into the industry.",
+    img: "https://picsum.photos/seed/ieee-harkirat/720/480",
+  },
+  {
+    file: "ieee_day_2024.md",
+    title: "IEEE Day 2024",
+    author: "IEEE IGDTUW",
+    status: "offline + online",
+    attendees: "239 members",
+    text: "An on-campus meet-up in the ECE department plus an online session on getting more out of an IEEE membership.",
+    img: "https://picsum.photos/seed/ieee-day/720/480",
+  },
+  {
+    file: "orientation_2023.md",
+    title: "Orientation & Membership Drive",
+    author: "IEEE IGDTUW",
+    status: "annual",
+    attendees: "first-years",
+    text: "Our welcome event for new students: what IEEE is, what we do all year and how to join in.",
+    img: "https://picsum.photos/seed/ieee-orient/720/480",
+  },
+];
